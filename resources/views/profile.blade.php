@@ -9,7 +9,7 @@
 <body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center min-h-screen">
     <div class="bg-white shadow-xl rounded-2xl p-8 max-w-md w-full transform transition-all hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
         <div class="flex items-center justify-center mb-6">
-            <img src="https://via.placeholder.com/100" alt="Profile Picture" class="w-24 h-24 rounded-full border-4 border-purple-500 shadow-lg">
+            <img src="/yuji.jpeg" alt="Profile Picture" class="w-24 h-24 rounded-full border-4 border-purple-500 shadow-lg">
         </div>
         <h1 class="text-3xl font-extrabold text-center text-gray-800 mb-8">Profil Mahasiswa</h1>
         
@@ -24,7 +24,7 @@
             </div>
             <div class="bg-gray-100 p-4 rounded-lg shadow-sm">
                 <span class="block text-gray-700 font-semibold">Kelas:</span>
-                <p class="text-lg text-gray-900">{{ $kelas }}</p>
+                <p class="text-lg text-gray-900">{{ $nama_kelas ?? 'Kelas tidak ditemukan' }}</p>
             </div>
         </div>
 
